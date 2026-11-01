@@ -1,11 +1,10 @@
 // OPD Slot Guard: Composition Root (02-HLD.md §11).
 
-import 'dart:io';
 import 'package:flutter/material.dart';
-import 'package:sqflite_common_ffi/sqflite_ffi.dart';
 
 import 'application/appointment_application.dart';
 import 'application/demo_actor_directory.dart';
+import 'infrastructure/database_initializer.dart';
 import 'infrastructure/demo_database.dart';
 import 'infrastructure/sqlite_appointment_authority.dart';
 import 'infrastructure/sqlite_appointment_read_model.dart';
@@ -17,10 +16,7 @@ import 'presentation/clinic_board_controller.dart';
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
-  if (Platform.isWindows || Platform.isLinux) {
-    sqfliteFfiInit();
-    databaseFactory = databaseFactoryFfi;
-  }
+  initDatabaseFactory();
 
   final dbManager = DemoDatabaseManager();
   final db = await dbManager.open();

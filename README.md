@@ -16,3 +16,4 @@ The frozen architecture and design specifications are documented in the `docs/` 
 8. [FAILURE-MATRIX.md](docs/FAILURE-MATRIX.md) — Failure cases, error codes, and recovery behaviors.
 9. [JUDGE-DEFENSE.md](docs/JUDGE-DEFENSE.md) — Top technical questions, trade-offs, and design defenses.
 10. [TEST-PLAN.md](docs/TEST-PLAN.md) — Unit, integration, and scenario testing strategy.
+

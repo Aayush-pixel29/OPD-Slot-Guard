@@ -6,7 +6,23 @@
 [![Tests](https://img.shields.io/badge/tests-97%2F97%20passing-brightgreen.svg)](test/)
 [![Analysis](https://img.shields.io/badge/flutter%20analyze-0%20warnings-brightgreen.svg)](lib/)
 [![Architecture](https://img.shields.io/badge/architecture-Frozen%20HLD%2FLLD-blue.svg)](docs/)
-[![Dependencies](https://img.shields.io/badge/dependencies-Zero%20Bloat-orange.svg)](pubspec.yaml)
+[![Live Web Demo](https://img.shields.io/badge/live%20demo-GitHub%20Pages-success.svg)](https://aayush-pixel29.github.io/OPD-Slot-Guard/)
+[![PWA Ready](https://img.shields.io/badge/PWA-iOS%20%26%20Chrome-blueviolet.svg)](https://aayush-pixel29.github.io/OPD-Slot-Guard/)
+
+---
+
+### 🌐 Live Web Demo & iPhone Safari (PWA)
+
+The application is deployed live on GitHub Pages with full client-side SQLite WebAssembly (`sqlite3.wasm` + Shared Worker):
+
+👉 **[Launch Live OPD Slot Guard Web App](https://aayush-pixel29.github.io/OPD-Slot-Guard/)**
+
+#### 📱 How to Run as a Native App on iPhone (Safari PWA):
+1. Open Safari on your iPhone and visit: **`https://aayush-pixel29.github.io/OPD-Slot-Guard/`**
+2. Tap the **Share** button (box with an arrow pointing upward at the bottom of Safari).
+3. Scroll down and tap **"Add to Home Screen"**.
+4. Tap **Add** in the top-right corner.
+5. Tap the new **OPD Slot Guard** icon on your iPhone home screen — it runs in full-screen standalone mode just like a native iOS app!
 
 ---
 

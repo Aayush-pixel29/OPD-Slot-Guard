@@ -115,3 +115,4 @@ void main() {
     expect(clinicSlot.clinicRequests.last.status, RequestStatus.waitlisted);
   });
 }
+

@@ -134,3 +134,4 @@ class SqliteAppointmentReadModel implements AppointmentReadModel {
     return BoardProjection(actor: actor, slots: cards);
   }
 }
+

@@ -165,3 +165,4 @@ class AppointmentApplication {
     pendingGesture = null;
   }
 }
+

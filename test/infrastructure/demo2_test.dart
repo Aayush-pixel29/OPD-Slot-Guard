@@ -126,3 +126,4 @@ void main() {
     expect(confirmedRows, isEmpty, reason: 'Reopening must never auto-confirm another patient');
   });
 }
+

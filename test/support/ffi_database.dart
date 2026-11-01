@@ -23,3 +23,4 @@ Future<Database> openTestDatabase({bool seed = true}) async {
   );
   return db;
 }
+

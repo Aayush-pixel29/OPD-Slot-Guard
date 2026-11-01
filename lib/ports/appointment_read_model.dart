@@ -69,3 +69,4 @@ class BoardProjection {
 abstract interface class AppointmentReadModel {
   Future<BoardProjection> load(Actor actor);
 }
+

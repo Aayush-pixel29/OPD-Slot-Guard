@@ -168,3 +168,4 @@ class SqliteSchema {
     await batch.commit(noResult: true);
   }
 }
+
